@@ -2,7 +2,7 @@
     "schema_version": "1.0",
     "packages": [
         {
-            "name": "LiveReload",
+            "name": "LiveReload2",
             "details": "https://github.com/Black3v3r/sublime-devdocs",
             "releases": [
                 {
