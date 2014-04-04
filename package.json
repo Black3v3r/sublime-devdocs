@@ -1,0 +1,15 @@
+{
+    "schema_version": "1.0",
+    "packages": [
+        {
+            "name": "LiveReload",
+            "details": "https://github.com/Black3v3r/sublime-devdocs",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/Grafikart/ST3-LiveReload/tree/master"
+                }
+            ]
+        }
+    ]
+}
