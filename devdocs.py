@@ -4,6 +4,7 @@
 import sublime
 import sublime_plugin
 
+import string
 import subprocess
 import webbrowser
 
@@ -21,6 +22,11 @@ class DevDocsSearchSelectionCommand(sublime_plugin.TextCommand):
                 text = self.view.word(selection)
 
             text = self.view.substr(selection)
+            syntaxFull = self.view.settings().get('syntax')
+            # self.view.error_message(syntax)
+            syntax = (syntaxFull.split("/"))[1];
+            if (text):
+                text = syntax + " " + text
             SearchFor(text)
 
 
